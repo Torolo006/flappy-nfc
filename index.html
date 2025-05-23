@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Flappy NFC</title>
+  <style>
+    body {
+      margin: 0;
+      background: #70c5ce;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    #start-btn {
+      font-size: 24px;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    canvas {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flappy NFC</h1>
+  <button id="start-btn">Запуск</button>
+  <audio id="bg-audio" src="sound.mp3" loop></audio>
+  <canvas id="game-canvas" width="320" height="480"></canvas>
+
+  <script src="flappy.js"></script>
+</body>
+</html>
